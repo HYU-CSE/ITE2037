@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Assignment1_1 {
+	public static void main(String[] args) {
+		
+	}
+	
+	int GetAge() {
+		int age;
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter your age: ");
+		age = Integer.parseInt(in.nextLine());
+		in.close();
+		return age;
+	}
+	void Insa(int age) {
+		
+	}
+}

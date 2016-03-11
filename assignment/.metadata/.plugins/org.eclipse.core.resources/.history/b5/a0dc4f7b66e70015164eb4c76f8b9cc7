@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Assignment1_2 {
+	public static void main(String[] args) {
+		Say(123,123);
+	}
+	static int GetLastNumber() {
+		int age;
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter Last Number: ");
+		age = Integer.parseInt(in.nextLine());
+		in.close();
+		return age;
+	}
+	static void Say(int currentNumber, int lastNumber) {
+		if (currentNumber != lastNumber) {
+			
+		} else {
+			String number_string = String.valueOf(currentNumber);
+			for (char ch : number_string.toCharArray()) {
+				int number_each = Character.getNumericValue(ch);
+				System.out.println(++number_each);
+			}
+			
+		}
+	}
+}

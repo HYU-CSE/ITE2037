@@ -1,0 +1,16 @@
+import java.io.*;
+
+public class hello {
+	public static void main(String[] args) {
+		
+	}
+	
+	int GetAge() {
+		
+		
+		return 0;
+	}
+	void Insa(int age) {
+		
+	}
+}
