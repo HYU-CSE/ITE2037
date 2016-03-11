@@ -2,5 +2,3 @@
 Object-Oriented Programming
 
 # Assignment List
-- Assignment#1 
-- 
